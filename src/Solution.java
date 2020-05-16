@@ -5,7 +5,7 @@ public class Solution {
 //    static DoublyLinkedListNode reverse(DoublyLinkedListNode head) {
 
 
-//  // my second code starts here
+//  // my code starts here
         if (head == null){
           return head;
         }
@@ -16,7 +16,7 @@ public class Solution {
         current.prev = current.next;
         current.next = previous;
         newHead = current;
-        current = current.prev; // travarse from right to left.
+        current = current.prev; // traverse from right to left.
         }
         return newHead;
 //        // my code ends here
